@@ -9,15 +9,31 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@dqbd/tiktoken": "^1.0.22",
+    "@heroicons/react": "^2.2.0",
+    "@langchain/core": "^0.3.78",
+    "@langchain/google-genai": "^0.2.18",
+    "@langchain/nomic": "^0.1.0",
+    "@langchain/pinecone": "^0.0.7",
+    "@pinecone-database/pinecone": "^6.1.2",
+    "axios": "^1.12.2",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.3.36",
+    "mongodb": "^6.20.0",
+    "next": "15.5.5",
+    "puppeteer": "^24.25.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.5"
+    "sweetalert2": "^11.26.2",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.5",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4"
   }
 }
